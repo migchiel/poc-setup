@@ -28,9 +28,3 @@ _____________________
 while true; do nc -zv HostA 8080; sleep 0.25s; done
 _____________________
 
-
-
-POC template import
-_____________________
-
-
