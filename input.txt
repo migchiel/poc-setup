@@ -1,0 +1,36 @@
+Listener on Windows:
+_____________________
+$Listener = [System.Net.Sockets.TcpListener]8080;
+$Listener.Start()
+$connections = 0
+while($true) 
+{
+    $client = $Listener.AcceptTcpClient()
+    $connections++
+    $address= $client.Client.RemoteEndPoint.Address
+    Write-Host("Connection #" + $connections + ". Source IP: " + $client.Client.RemoteEndPoint.Address)
+    $client.Close();
+}
+_____________________
+while($true) 
+{
+    "Attempting Connection..."
+    (new-object Net.Sockets.TcpClient).Connect("HostA", 8080)
+    Start-Sleep -Milliseconds 250
+}
+_____________________
+
+
+Listener on Linux
+_____________________
+nc -lvk 8080
+_____________________
+while true; do nc -zv HostA 8080; sleep 0.25s; done
+_____________________
+
+
+
+POC template import
+_____________________
+
+
