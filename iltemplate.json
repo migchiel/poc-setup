@@ -14,55 +14,55 @@
                 "labels": [
                     {
                         "key": "role",
-                        "value": "R: DB"
+                        "value": "R-DB"
                     },
                     {
                         "key": "role",
-                        "value": "R: WEB"
+                        "value": "R-WEB"
                     },
                     {
                         "key": "role",
-                        "value": "R: APP"
+                        "value": "R-APP"
                     },
                     {
                         "key": "role",
-                        "value": "R: SYSLOG"
+                        "value": "R-SYSLOG"
                     },
                     {
                         "key": "role",
-                        "value": "R: DC"
+                        "value": "R-DC"
                     },
                     {
                         "key": "app",
-                        "value": "A: ACTIVE-DIRECTORY"
+                        "value": "A-ACTIVE-DIRECTORY"
                     },
                     {
                         "key": "app",
-                        "value": "A: INFRA-MGMT"
+                        "value": "A-INFRA-MGMT"
                     },
                     {
                         "key": "app",
-                        "value": "A: SECURITY-MGMT"
+                        "value": "A-SECURITY-MGMT"
                     },
                     {
                         "key": "env",
-                        "value": "E: PROD"
+                        "value": "E-PROD"
                     },
                     {
                         "key": "env",
-                        "value": "E: DEV"
+                        "value": "E-DEV"
                     },
                     {
                         "key": "env",
-                        "value": "E: TEST"
+                        "value": "E-TEST"
                     },
                     {
                         "key": "env",
-                        "value": "E: STAGING"
+                        "value": "E-STAGING"
                     },
                     {
                         "key": "env",
-                        "value": "E: UAT"
+                        "value": "E-UAT"
                     }
                 ]
             },
